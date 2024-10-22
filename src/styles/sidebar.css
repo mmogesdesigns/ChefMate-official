@@ -72,6 +72,7 @@
     border: solid 1px #d6dcd3;
     background-color: #fff;
     box-sizing: border-box;
+    gap: 0.5rem;
 }
 
 .ingredients-input {
@@ -83,14 +84,17 @@
 }
 
 .add-btn {
-    width: 20%; /* Add button takes the remaining space */
     border-radius: 30px;
-    background-color: #035c41c2;
+    background-color: #035c41;
     font-size: 14px;
     color: white;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.8rem;
     text-align: center;
     cursor: pointer;
+    border: none;
+}
+.add-btn {
+    background-color: #024d34;
 }
 
 .ingredients-box {
